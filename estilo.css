@@ -13,7 +13,7 @@ background-image: linear-gradient(rgb(219, 214, 214), white, rgb(190, 190, 190))
 
 .box {
   width: 350px;
-  height: 350px;
+  height: 380px;
   background-color: #fff;
   border-radius: 7px;
   font-size: 16px;
@@ -62,6 +62,11 @@ label {
   padding-bottom: 15px;
   font-size: 16px;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 #altura::placeholder {
   font-size: 16px;
@@ -69,4 +74,11 @@ label {
 
 #peso::placeholder {
   font-size: 16px;
+}
+
+p {
+  overflow-wrap: break-word;
+  padding-left: 35px;
+  margin: 15px 5px;
+  padding-right: 30px;
 }
