@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="estilo.css"/>
-        <title>Calculadora IMC</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css"/>
+    <title>Calculadora IMC</title>
+</head>
 <body>
     <div class="container">
         <div class="box">
+            <form>
             <legend>CALCULE MEU IMC:</legend>
             <div>
                 <label>Altura:</label>
@@ -18,9 +19,10 @@
                 <label>Peso: </label>
                 <input type="number" class="inputs" id="peso" placeholder="Insira seu peso em kg" value=""/>
             </div>
-            <button type="submit" id="calcular" class="button">Calcular</button>
+            <button type="button"id="calcular" class="button">Calcular</button>
             <button type="reset" id="Reset" class="button">Resetar</button>
-            <p type="text" id="resultado" name="resultado"></p>
+            <p type="text" id="resultadoIMC" name="resultadoIMC"></p>
+        </form>
         </div>
     </div>
     <script type="text/javascript" src="script.js"></script>
