@@ -27,4 +27,4 @@ let buttonResetar = document.getElementById("Reset");
 let elementoResultadoImc = document.getElementById("resultadoIMC");
 
 buttonCalcular.addEventListener("click", () => calculaImc(altura.value, peso.value));
-buttonResetar.addEventListener("click", () => elementoResultadoImc.textContent = "");
+buttonResetar.addEventListener("click", () => elementoResultadoImc.textContent = "" );
